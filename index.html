@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" href="brand/kinetix-mark.svg?v=20260910" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css?v=20260910-client-value" />
-  <link rel="stylesheet" href="showcase.css?v=20260910-proof3" />
+  <link rel="stylesheet" href="showcase.css?v=20260910-fullscreen4" />
 </head>
 <body>
   <div class="page-glow page-glow-a"></div>
@@ -84,12 +84,12 @@
         <div class="section-heading light reveal">
           <span class="eyebrow">Featured projects</span>
           <h2>Systems that make the work easier to run.</h2>
-          <p>Selected projects shown through their actual reconstructed demo visuals, verified operating evidence and the systems they connect.</p>
+          <p>Click any project to open its full-screen reconstructed demo. Sample data is used to protect client information.</p>
         </div>
 
         <div class="client-projects">
-          <article class="client-project reveal">
-            <div class="project-preview"><span class="demo-badge">Project demo</span><img src="https://raw.githubusercontent.com/dbauto/danicaboton.github.io/main/assets/recruitment.png" alt="Recruitment Operations Platform demo" loading="lazy" /></div>
+          <a class="client-project project-link reveal" href="demos/recruitment.html" aria-label="Open Recruitment Operations Platform full-screen demo">
+            <div class="project-preview"><span class="demo-badge">Interactive demo</span><img src="https://raw.githubusercontent.com/dbauto/danicaboton.github.io/main/assets/recruitment.png" alt="Recruitment Operations Platform demo" loading="lazy" /></div>
             <div class="project-copy">
               <div class="project-kicker"><span class="number">01</span><span>Recruitment Operations Platform</span></div>
               <h3>One place for recruiters to manage candidate progress.</h3>
@@ -100,26 +100,29 @@
                 <div><strong>7–12 sec</strong><span>typical analysis execution</span></div>
               </div>
               <div class="platform-flow"><span>Zoho CRM</span><b>→</b><span>n8n</span><b>→</b><span>AI resume analysis</span><b>→</b><span>Zoho CRM</span></div>
+              <span class="open-demo">Open full-screen demo <b>↗</b></span>
             </div>
-          </article>
+          </a>
 
-          <article class="client-project reveal delay-1">
-            <div class="project-preview"><span class="demo-badge">Project demo</span><img src="https://raw.githubusercontent.com/dbauto/danicaboton.github.io/main/assets/monday.png" alt="Enterprise Operations Workspace demo" loading="lazy" /></div>
+          <a class="client-project project-link reveal delay-1" href="demos/project-operations.html" aria-label="Open Monday.com Project Operations Control Center full-screen demo">
+            <div class="project-preview"><span class="demo-badge">Interactive demo</span><img src="https://raw.githubusercontent.com/dbauto/danicaboton.github.io/main/assets/monday.png" alt="Monday.com Project Operations Control Center demo" loading="lazy" /></div>
             <div class="project-copy">
-              <div class="project-kicker"><span class="number">02</span><span>Enterprise Operations Workspace</span></div>
-              <h3>One workspace for projects, ownership and priorities.</h3>
-              <p>Projects, tasks, approvals, escalations and leadership views are connected so employees can focus on what they own while management sees what needs attention across the operation.</p>
-              <div class="project-stats" aria-label="Operations workspace evidence">
-                <div><strong>5</strong><span>connected operating boards</span></div>
-                <div><strong>15 min</strong><span>automation cadence</span></div>
-                <div><strong>~860</strong><span>workflow runs per month</span></div>
+              <div class="project-kicker"><span class="number">02</span><span>Monday.com Project Operations Control Center</span></div>
+              <h3>Track work, time, approvals and project cost in one operating system.</h3>
+              <p>Projects and tasks stay connected to work sessions, revisions, approvals and labor cost so managers can see where time is going, what was reworked and what has actually been approved.</p>
+              <div class="project-stats four" aria-label="Project operations evidence">
+                <div><strong>8</strong><span>connected data boards</span></div>
+                <div><strong>20+</strong><span>operational views</span></div>
+                <div><strong>9</strong><span>native automations</span></div>
+                <div><strong>10</strong><span>n8n workflows designed</span></div>
               </div>
-              <div class="platform-flow"><span>Monday.com</span><b>+</b><span>n8n</span><b>+</b><span>SharePoint</span><b>+</b><span>Calendars</span></div>
+              <div class="platform-flow"><span>Monday.com</span><b>↔</b><span>n8n</span><b>↔</b><span>Monday API</span><b>+</b><span>Dashboards / Gantt</span></div>
+              <span class="open-demo">Open full-screen demo <b>↗</b></span>
             </div>
-          </article>
+          </a>
 
-          <article class="client-project reveal delay-2">
-            <div class="project-preview"><span class="demo-badge">Project demo</span><img src="https://raw.githubusercontent.com/dbauto/danicaboton.github.io/main/assets/ocr.png" alt="SPX OCR Automated Encoder System demo" loading="lazy" /></div>
+          <a class="client-project project-link reveal delay-2" href="demos/ocr.html" aria-label="Open SPX OCR Automated Encoder System full-screen demo">
+            <div class="project-preview"><span class="demo-badge">Interactive demo</span><img src="https://raw.githubusercontent.com/dbauto/danicaboton.github.io/main/assets/ocr.png" alt="SPX OCR Automated Encoder System demo" loading="lazy" /></div>
             <div class="project-copy">
               <div class="project-kicker"><span class="number">03</span><span>SPX OCR Automated Encoder System</span></div>
               <h3>Turn incoming documents into usable operational records.</h3>
@@ -129,11 +132,12 @@
                 <div><strong>2</strong><span>intake paths: upload + Drive</span></div>
               </div>
               <div class="platform-flow"><span>Web / Google Drive</span><b>→</b><span>n8n</span><b>→</b><span>OCR</span><b>→</b><span>Supabase</span><b>→</b><span>Reports</span></div>
+              <span class="open-demo">Open full-screen demo <b>↗</b></span>
             </div>
-          </article>
+          </a>
 
-          <article class="client-project reveal delay-3">
-            <div class="project-preview"><span class="demo-badge">Project demo</span><img src="https://raw.githubusercontent.com/dbauto/danicaboton.github.io/main/assets/zoho-migration.png" alt="Enterprise Zoho CRM Engineering and Migration demo" loading="lazy" /></div>
+          <a class="client-project project-link reveal delay-3" href="demos/migration.html" aria-label="Open Enterprise Zoho CRM Engineering and Migration full-screen demo">
+            <div class="project-preview"><span class="demo-badge">Interactive demo</span><img src="https://raw.githubusercontent.com/dbauto/danicaboton.github.io/main/assets/zoho-migration.png" alt="Enterprise Zoho CRM Engineering and Migration demo" loading="lazy" /></div>
             <div class="project-copy">
               <div class="project-kicker"><span class="number">04</span><span>Enterprise Zoho CRM Engineering &amp; Migration</span></div>
               <h3>Move large recruitment datasets without losing traceability.</h3>
@@ -143,9 +147,10 @@
                 <div><strong>59K+</strong><span>JazzHR source scope</span></div>
                 <div><strong>62K+</strong><span>Apploi source scope</span></div>
               </div>
-              <div class="platform-flow"><span>JazzHR / Apploi</span><b>→</b><span>Resume + data processing</span><b>→</b><span>Zoho CRM</span></div>
+              <div class="platform-flow"><span>JazzHR / Apploi</span><b>→</b><span>Google Drive resume files</span><b>→</b><span>Migration processing</span><b>→</b><span>Zoho CRM</span></div>
+              <span class="open-demo">Open full-screen demo <b>↗</b></span>
             </div>
-          </article>
+          </a>
         </div>
       </div>
     </section>
