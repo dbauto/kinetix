@@ -5,7 +5,7 @@
 **KINETIX**  
 **Intelligent Automation for Business**
 
-KINETIX should feel modern, engineering-led, intelligent, precise and approachable. The brand should communicate business automation and systems thinking rather than a generic AI agency.
+KINETIX is the client-facing intelligent automation brand. It should feel modern, engineering-led, practical, precise and approachable. The visual language is intentionally related to Danica's technical portfolio, but is more commercial and conversion-focused.
 
 ## Kira
 
@@ -14,47 +14,71 @@ KINETIX should feel modern, engineering-led, intelligent, precise and approachab
 **KIRA = Kinetix Intelligent Reasoning Assistant**  
 Descriptor: **Your AI Automation Consultant**
 
-Kira can handle workflow discovery, process analysis, preliminary automation opportunities, lead qualification and solution recommendations before human review.
+Kira supports workflow discovery, process analysis, preliminary automation opportunities, lead qualification and solution recommendations before human review.
+
+## Visual direction
+
+KINETIX uses a **charcoal neumorphism** system rather than bright SaaS gradients or glassmorphism.
+
+Primary traits:
+- charcoal graphite surfaces
+- raised and inset neumorphic depth
+- warm sand accent
+- minimal use of borders
+- engineered, structured layouts
+- large editorial typography
+- restrained motion and hover states
 
 ## Palette
 
 | Token | Hex | Use |
 |---|---|---|
-| Deep Navy | `#0F1023` | Primary dark background/text |
-| Violet | `#7C3AED` | Primary accent |
-| Lilac | `#C4B5FD` | Secondary accent |
-| Soft Blue | `#60A5FA` | Supporting accent |
-| Light Gray | `#E5E7EB` | Borders/backgrounds |
-| Off White | `#FAFAFC` | Light surfaces |
+| Charcoal | `#2D3238` | Main background and primary surfaces |
+| Raised Surface | `#30363C` | Cards, modules and elevated UI |
+| Secondary Surface | `#343A41` | Alternate raised surface |
+| Warm Sand | `#F2B77E` | Primary accent and calls to action |
+| Warm Sand Dark | `#D7965F` | Logo gradient depth |
+| Warm Sand Light | `#F8D6B2` | Logo highlight |
+| Primary Text | `#F4F1ED` | Main text |
+| Secondary Text | `#DEDBD6` | Supporting text |
+| Muted Text | `#B7B6B3` | Descriptions and metadata |
 
-### Momentum gradient
+## Neumorphism shadows
 
-`linear-gradient(135deg, #60A5FA 0%, #7C3AED 52%, #C4B5FD 100%)`
+Raised surface:
+
+`14px 14px 30px #20242A, -12px -12px 26px #3A4047`
+
+Soft raised control:
+
+`8px 8px 18px #22262B, -7px -7px 16px #393F46`
+
+Inset control:
+
+`inset 5px 5px 11px #23272C, inset -5px -5px 11px #3A4047`
 
 ## Typography
 
-Preferred UI/display family: **Plus Jakarta Sans** with a modern sans-serif fallback stack.
+KINETIX follows the same typography family as the technical portfolio:
 
-Suggested hierarchy:
-- Display/hero: 700–800
-- Headings: 600–700
-- Body: 400–500
-- Technical labels: uppercase with increased letter spacing
+- **Bricolage Grotesque** — hero headings, display typography and major section titles
+- **Manrope** — body copy and interface text
+- **IBM Plex Mono** — technical labels, metadata and small uppercase interface text
 
 ## Logo usage
 
-- `kinetix-mark.svg` — standalone K symbol / favicon / avatar
-- `kinetix-logo-dark.svg` — use on dark backgrounds
-- `kinetix-logo-light.svg` — use on light backgrounds
+- `kinetix-mark.svg` — standalone K mark / favicon / avatar
+- `kinetix-logo-dark.svg` — primary logo on charcoal backgrounds
+- `kinetix-logo-light.svg` — alternate logo for light contexts
 - `kira-logo.svg` — Kira sub-brand
 
-Keep generous clear space around the marks. Avoid stretching, skewing, recoloring with unrelated colors, or placing the gradient mark on visually noisy backgrounds.
+The KINETIX mark uses a restrained warm-sand gradient to give the symbol depth while staying within the charcoal portfolio ecosystem.
 
 ## Voice
 
-Clear, capable, practical and business-oriented. Explain automation in terms of operational outcomes. Avoid exaggerated AI claims.
+Clear, capable, practical and business-oriented. Explain automation in terms of operational outcomes. Avoid exaggerated AI claims and generic agency language.
 
-## Suggested messaging
+## Messaging
 
 Primary tagline: **Intelligent Automation for Business**
 
